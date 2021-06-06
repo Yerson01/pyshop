@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==3.1"
+djangorestframework = "==3.11.1"
+djoser = "==2.1.0"
+djangorestframework-simplejwt = "==4.7.1"
+python-memcached = "*"
+
+[dev-packages]
+factory-boy = "==3.2.0"
+faker = "==8.5.1"
+pytest-django = "==4.3.0"
+
+[requires]
+python_version = "3.9"
